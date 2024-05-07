@@ -75,7 +75,7 @@ p {
   text-align: center;
 }
 .colors th {
-  border: 2px dotted black
+  border: 2px dotted black;
   background-color: white;
 }
 .colors td{
