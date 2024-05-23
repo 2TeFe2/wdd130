@@ -1,0 +1,21 @@
+body{
+    margin: 0 auto;
+    display: grid;
+}
+
+.webimage{
+    width: 100%;
+}
+
+.circle{
+    border-radius: 50%;
+    width: 15%;
+    border: 10px solid black;
+    margin: 2%;
+}
+
+.circlebox{
+    background-color: gray;
+    text-align: center;
+    
+}
