@@ -17,5 +17,6 @@ body{
 .circlebox{
     background-color: gray;
     text-align: center;
-    
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
