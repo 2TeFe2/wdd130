@@ -11,19 +11,23 @@ body{
     grid-column: 1/2;
     width: 70%;
     grid-row: 1/3;
+    justify-content: center;
 }
 
 .textbox1{
     grid-column: 1/3;
     font-size: 10em;
-    text-align: center;
+    justify-content: center;
     grid-row: 1/3;
 }
 
 .textbox2{
     grid-column: 2/3;
     font-size: 5em;
-    text-align: center;
+    justify-content: center;
     grid-row: 2/3;
 }
 
+.graybox{
+    background-color: dimgray;
+}
