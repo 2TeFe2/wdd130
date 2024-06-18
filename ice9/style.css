@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    margin: 0 auto;
+}
+
+.card1{
+    width: 250px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#imagemama{
+    width: 100%;
+}
+
+.awesomearticle{
+    padding: 10%;
+    text-align: center;
+}
+
+.foot{
+    background-color: cornflowerblue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.text1{
+    text-align: center;
+}
+.text2{
+    text-align: center;
+}
+.text3{
+    text-align: center;
+}
+
+span {
+    font-size: 0.7rem;
+}
