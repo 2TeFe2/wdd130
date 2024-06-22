@@ -190,6 +190,52 @@ footer p a:hover {
     grid-template-columns: 1fr 3fr 1fr;
 }
 
+.hero2{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.bruh_image{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: -1;
+}
+
+.bruh{
+    text-align: center;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    z-index: 1;
+    color: white;
+    
+}
+
+.content2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: azure;
+}
+
+.blog_title{
+    text-align: left;
+    grid-column: 1/2;
+    
+}
+
+.blog_user{
+    text-align: right;
+    width: 40%;
+    grid-column: 2/3;
+}
+
+.blog_text{
+    text-align: left;
+    grid-column: 1/2;
+    
+}
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
