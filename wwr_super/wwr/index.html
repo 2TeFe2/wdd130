@@ -6,6 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Whitewater Rafting Support | Loss of a loved One | Home</title>
     <link rel="stylesheet" href="styles/style.css">
+    <script>
+        // Get the button:
+        let mybutton = document.getElementById("myBtn");
+        
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {scrollFunction()};
+        
+        function scrollFunction() {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            mybutton.style.display = "block";
+          } else {
+            mybutton.style.display = "none";
+          }
+        }
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0; // For Safari
+          document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+        }
+        </script>
 </head>
 <body>
     <div id="content">
@@ -58,7 +79,7 @@
                 <a class='join' href="rivers.html">Join Us</a>
             
             </section>
-
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
         </main>      
         <footer>
             <p>Rafting Loss Support &copy; 2024 - Daniel Turner</p>
